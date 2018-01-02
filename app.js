@@ -27,20 +27,20 @@ app.controller('MyController', ['$http', function($http){//constructor function 
 		
 
 	}
-	// this.hello    = 'Hey Buddy';
-	// this.isActive = true;
-	// this.items    = ['apple', 'banana', 'pear']
-	// this.divExist = false;
-	// this.hideDiv  = true;
-	// this.showDiv  = false;
-	// this.imgSrc   = "http://cdn2-www.dogtime.com/assets/uploads/2011/01/file_23244_what-is-the-appenzeller-sennenhunde-dog-300x189.jpg";
+	this.hello    = 'Hey Buddy';
+	this.isActive = true;
+	this.items    = ['apple', 'banana', 'pear']
+	this.divExist = false;
+	this.hideDiv  = true;
+	this.showDiv  = false;
+	this.imgSrc   = "http://cdn2-www.dogtime.com/assets/uploads/2011/01/file_23244_what-is-the-appenzeller-sennenhunde-dog-300x189.jpg";
 
-	// this.someProperty = 'yellow';
-	// this.handleSubmit = function(){
-	// 	console.log('the form has been submitted')
-	// },
+	this.someProperty = 'yellow';
+	this.handleSubmit = function(){
+		console.log('the form has been submitted')
+	},
 
-	// this.handleClick = fucntion(){
-	// 	console.log('div is clicked')
-	// }
+	this.handleClick = function(){
+		console.log('div is clicked')
+	}
 }])
